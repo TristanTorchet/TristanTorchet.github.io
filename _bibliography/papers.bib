@@ -1,115 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{torchet2025mgrademinimalrecurrentgating,
+  title={mGRADE: Minimal Recurrent Gating Meets Delay Convolutions for Lightweight Sequence Modeling}, 
+  author={Tristan Torchet and Christian Metzner and Laura Kriener and Melika Payvand},
+  year={2025},
+  eprint={2507.01829},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2507.01829}, 
+  abstract={Edge devices for temporal processing demand models that capture both short- and long- range dynamics under tight memory constraints. While Transformers excel at sequence modeling, their quadratic memory scaling with sequence length makes them impractical for such settings. Recurrent Neural Networks (RNNs) offer constant memory but train sequentially, and Temporal Convolutional Networks (TCNs), though efficient, scale memory with kernel size. To address this, we propose mGRADE (mininally Gated Recurrent Architecture with Delay Embedding), a hybrid-memory system that integrates a temporal 1D-convolution with learnable spacings followed by a minimal gated recurrent unit (minGRU). This design allows the convolutional layer to realize a flexible delay embedding that captures rapid temporal variations, while the recurrent module efficiently maintains global context with minimal memory overhead. We validate our approach on two synthetic tasks, demonstrating that mGRADE effectively separates and preserves multi-scale temporal features. Furthermore, on challenging pixel-by-pixel image classification benchmarks, mGRADE consistently outperforms both pure convolutional and pure recurrent counterparts using approximately 20% less memory footprint, highlighting its suitability for memory-constrained temporal processing at the edge. This highlights mGRADE's promise as an efficient solution for memory-constrained multi-scale temporal processing at the edge.}
 }
 
-@book{einstein1956investigations,
+@INPROCEEDINGS{torchet2025quantizing,
+  abbr={ICONS},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={Quantizing Small-Scale State-Space Models for Edge AI},
+  author={Torchet, Tristan and Liu, Sheng-Chih and Chicca, Elisabetta},
+  journal={ACM International Conference on Neuromorphic Systems (ICONS)},
+  year={2025},
+  eprint={2506.12480},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2506.12480}, 
+  abstract={State-space models (SSMs) have recently gained attention in deep learning for their ability to efficiently model long-range dependencies, making them promising candidates for edge-AI applications. In this paper, we analyze the effects of quantization on small-scale SSMs with a focus on reducing memory and computational costs while maintaining task performance. Using the S4D architecture, we first investigate post-training quantization (PTQ) and show that the state matrix A and internal state x are particularly sensitive to quantization. Furthermore, we analyze the impact of different quantization techniques applied to the parameters and activations in the S4D architecture. To address the observed performance drop after Post-training Quantization (PTQ), we apply Quantization-aware Training (QAT), significantly improving performance from 40% (PTQ) to 96% on the sequential MNIST benchmark at 8-bit precision. We further demonstrate the potential of QAT in enabling sub-8-bit precisions and evaluate different parameterization schemes for QAT stability. Additionally, we propose a heterogeneous quantization strategy that assigns different precision levels to model components, reducing the overall memory footprint by a factor of 6x without sacrificing performance. Our results provide actionable insights for deploying quantized SSMs in resource-constrained environments.},
+  selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@misc{billaudelle2025minimalist,
+  title={MINIMALIST: switched-capacitor circuits for efficient in-memory computation of gated recurrent units}, 
+  author={Sebastian Billaudelle and Laura Kriener and Filippo Moro and Tristan Torchet and Melika Payvand},
+  year={2025},
+  eprint={2505.08599},
+  archivePrefix={arXiv},
+  primaryClass={cs.AR},
+  url={https://arxiv.org/abs/2505.08599}, 
+  abstract={Recurrent neural networks (RNNs) have been a long-standing candidate for processing of temporal sequence data, especially in memory-constrained systems that one may find in embedded edge computing environments. Recent advances in training paradigms have now inspired new generations of efficient RNNs. We introduce a streamlined and hardware-compatible architecture based on minimal gated recurrent units (GRUs), and an accompanying efficient mixed-signal hardware implementation of the model. The proposed design leverages switched-capacitor circuits not only for in-memory computation (IMC), but also for the gated state updates. The mixed-signal cores rely solely on commodity circuits consisting of metal capacitors, transmission gates, and a clocked comparator, thus greatly facilitating scaling and transfer to other technology nodes. We benchmark the performance of our architecture on time series data, introducing all constraints required for a direct mapping to the hardware system. The direct compatibility is verified in mixed-signal simulations, reproducing data recorded from the software-only network model.},
+}
+
+@INPROCEEDINGS{dagostino2025unified,
+  author={D'Agostino, S. and Massarotto, M. and Torchet, T. and Moro, F. and Castellani, N. and Grenouillet, L. and Beilliard, Y. and Esseni, D. and Payvand, M. and Vianello, E.},
+  booktitle={2025 Silicon Nanoelectronics Workshop (SNW)}, 
+  title={Unified Memcapacitor-Memristor Memory for Synaptic Weights and Neuron Temporal Dynamics}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={110-111},
+  keywords={Meters;Voltage measurement;Pulse measurements;Capacitance-voltage characteristics;Neurons;Memristors;Modulation;Programming;Capacitance;Capacitance measurement},
+  doi={10.23919/SNW65111.2025.11097227},
+  abstract={We present a fabricated and experimentally characterized memory stack that unifies memristive and memcapacitive behavior. Exploiting this dual functionality, we design a circuit enabling simultaneous control of spatial and temporal dynamics in recurrent spiking neural networks (RSNNs). Hardware-aware simulations highlight its promise for efficient neuromorphic processing.},
+  }
+
+
+@article{dagostino2024denram,
+  title={DenRAM: neuromorphic dendritic architecture with RRAM for efficient temporal processing with delays},
+  author={*D'Agostino, Simone and *Moro, Filippo and *Torchet, Tristan and Demirağ, Yiğit and Grenouillet, Laurent and Castellani, Niccolò and Indiveri, Giacomo and Vianello, Elisa and Payvand, Melika},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={3446},
+  year={2024},
+  month={4},
+  day={24},
+  publisher={Nature Publishing Group},
+  issn={2041-1723},
+  doi={10.1038/s41467-024-47764-w},
+  url={https://doi.org/10.1038/s41467-024-47764-w},
+  abstract={Neuroscience findings emphasize the role of dendritic branching in neocortical pyramidal neurons for non-linear computations and signal processing. Dendritic branches facilitate temporal feature detection via synaptic delays that enable coincidence detection (CD) mechanisms. Spiking neural networks highlight the significance of delays for spatio-temporal pattern recognition in feed-forward networks, eliminating the need for recurrent structures. Here, we introduce DenRAM, a novel analog electronic feed-forward spiking neural network with dendritic compartments. Utilizing 130 nm technology integrated with resistive RAM (RRAM), DenRAM incorporates both delays and synaptic weights. By configuring RRAMs to emulate bio-realistic delays and exploiting their heterogeneity, DenRAM mimics synaptic delays and efficiently performs CD for pattern recognition. Hardware-aware simulations on temporal benchmarks show DenRAM's robustness against hardware noise, and its higher accuracy over recurrent networks. DenRAM advances temporal processing in neuromorphic computing, optimizes memory usage, and marks progress in low-power, real-time signal processing},
+  abbr={Nature Comm.},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+@INPROCEEDINGS{su2023core,
+  abbr={ASYNC},
+  author={Su, Zhe and Hwang, Hyunjung and Torchet, Tristan and Indiveri, Giacomo},
+  booktitle={2023 28th IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)}, 
+  title={Core Interface Optimization for Multi-core Neuromorphic Processors}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={89-98},
+  keywords={Costs;Program processors;Multicore processing;Neuromorphics;Pipelines;Computer architecture;Routing;Multi-core neuromorphic processors;core interface;arbitration architecture;asynchronous CAM},
+  doi={10.1109/ASYNC58294.2023.10239574}}
