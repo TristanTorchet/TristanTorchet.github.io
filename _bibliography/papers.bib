@@ -19,15 +19,16 @@
 @article{zhao2025quantizing,
   abbr={ICONS},
   bibtex_show={true},
-  title={Quantizing Small-Scale State-Space Models for Edge AI}, 
+  title={Quantizing Small-Scale State-Space Models for Edge AI},
   author={Leo Zhao and Tristan Torchet and Melika Payvand and Laura Kriener and Filippo Moro},
   journal={ACM International Conference on Neuromorphic Systems (ICONS)},
   year={2025},
   eprint={2506.12480},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2506.12480}, 
+  url={https://arxiv.org/abs/2506.12480},
   preview={qssm_archi.png},
+  selected={true},
   abstract={State-space models (SSMs) have recently gained attention in deep learning for their ability to efficiently model long-range dependencies, making them promising candidates for edge-AI applications. In this paper, we analyze the effects of quantization on small-scale SSMs with a focus on reducing memory and computational costs while maintaining task performance. Using the S4D architecture, we first investigate post-training quantization (PTQ) and show that the state matrix A and internal state x are particularly sensitive to quantization. Furthermore, we analyze the impact of different quantization techniques applied to the parameters and activations in the S4D architecture. To address the observed performance drop after Post-training Quantization (PTQ), we apply Quantization-aware Training (QAT), significantly improving performance from 40% (PTQ) to 96% on the sequential MNIST benchmark at 8-bit precision. We further demonstrate the potential of QAT in enabling sub-8-bit precisions and evaluate different parameterization schemes for QAT stability. Additionally, we propose a heterogeneous quantization strategy that assigns different precision levels to model components, reducing the overall memory footprint by a factor of 6x without sacrificing performance. Our results provide actionable insights for deploying quantized SSMs in resource-constrained environments.},
 }
 

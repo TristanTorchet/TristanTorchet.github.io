@@ -186,19 +186,23 @@
   "references": [
     {
       "name": "Prof. Melika Payvand",
-      "reference": "Main supervisor, Emerging Intelligent Substrates Lab, Institute of Neuroinformatics, ETHZ/UZH"
+      "reference": "Main supervisor, Emerging Intelligent Substrates Lab, Institute of Neuroinformatics, ETHZ/UZH",
+      "email": "melika@ini.uzh.ch"
     },
     {
       "name": "Prof. Shih-Chii Liu",
-      "reference": "Committee member, Institute of Neuroinformatics, ETHZ/UZH"
+      "reference": "Committee member, Institute of Neuroinformatics, ETHZ/UZH",
+      "email": "shih@ini.uzh.ch"
     },
     {
       "name": "Dr. Abu Sebastian",
-      "reference": "Committee member, IBM Research"
+      "reference": "Committee member, IBM Research",
+      "email": "ase@zurich.ibm.com"
     },
     {
       "name": "Prof. Luca Benini",
-      "reference": "Committee member, ETHZ"
+      "reference": "Committee member, ETHZ",
+      "email": "lbenini@iis.ee.ethz.ch"
     }
   ],
   "projects": [
