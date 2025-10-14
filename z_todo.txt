@@ -1,0 +1,4 @@
+1. email of professors. 
+2. CV tab structure: Basics (renamed as General), References, Education, Selected Publications, Work (renamed as Industry), Skills, Languages, Interests
+3. In the General section of the CV, replace Url by Scholar. Add LinkedIn and Github. 
+4. add quantizing as selected publication.
