@@ -3,16 +3,17 @@
 
 @misc{torchet2025mgrade,
   abbr={Preprint - V2 under review},
+  bibtex_show={true},
   title={mGRADE: Minimal Recurrent Gating Meets Delay Convolutions for Lightweight Sequence Modeling}, 
   author={Tristan Torchet and Christian Metzner and Laura Kriener and Melika Payvand},
   year={2025},
   eprint={2507.01829},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  doi={https://arxiv.org/abs/2507.01829}, 
+  url={https://arxiv.org/abs/2507.01829}, 
   preview={mgrade_archi.png},
   abstract={Edge devices for temporal processing demand models that capture both short- and long- range dynamics under tight memory constraints. While Transformers excel at sequence modeling, their quadratic memory scaling with sequence length makes them impractical for such settings. Recurrent Neural Networks (RNNs) offer constant memory but train sequentially, and Temporal Convolutional Networks (TCNs), though efficient, scale memory with kernel size. To address this, we propose mGRADE (mininally Gated Recurrent Architecture with Delay Embedding), a hybrid-memory system that integrates a temporal 1D-convolution with learnable spacings followed by a minimal gated recurrent unit (minGRU). This design allows the convolutional layer to realize a flexible delay embedding that captures rapid temporal variations, while the recurrent module efficiently maintains global context with minimal memory overhead. We validate our approach on two synthetic tasks, demonstrating that mGRADE effectively separates and preserves multi-scale temporal features. Furthermore, on challenging pixel-by-pixel image classification benchmarks, mGRADE consistently outperforms both pure convolutional and pure recurrent counterparts using approximately 20% less memory footprint, highlighting its suitability for memory-constrained temporal processing at the edge. This highlights mGRADE's promise as an efficient solution for memory-constrained multi-scale temporal processing at the edge.}
-  selected={true},
+  selected={true}
 }
 
 @INPROCEEDINGS{zhao2025quantizing,
@@ -25,7 +26,7 @@
   eprint={2506.12480},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  doi={https://arxiv.org/abs/2506.12480}, 
+  url={https://arxiv.org/abs/2506.12480}, 
   preview={qssm_archi.png},
   abstract={State-space models (SSMs) have recently gained attention in deep learning for their ability to efficiently model long-range dependencies, making them promising candidates for edge-AI applications. In this paper, we analyze the effects of quantization on small-scale SSMs with a focus on reducing memory and computational costs while maintaining task performance. Using the S4D architecture, we first investigate post-training quantization (PTQ) and show that the state matrix A and internal state x are particularly sensitive to quantization. Furthermore, we analyze the impact of different quantization techniques applied to the parameters and activations in the S4D architecture. To address the observed performance drop after Post-training Quantization (PTQ), we apply Quantization-aware Training (QAT), significantly improving performance from 40% (PTQ) to 96% on the sequential MNIST benchmark at 8-bit precision. We further demonstrate the potential of QAT in enabling sub-8-bit precisions and evaluate different parameterization schemes for QAT stability. Additionally, we propose a heterogeneous quantization strategy that assigns different precision levels to model components, reducing the overall memory footprint by a factor of 6x without sacrificing performance. Our results provide actionable insights for deploying quantized SSMs in resource-constrained environments.},
   selected={true}
@@ -34,6 +35,7 @@
 
 @misc{billaudelle2025minimalist,
   abbr={Preprint},
+  bibtex_show={true},
   title={MINIMALIST: switched-capacitor circuits for efficient in-memory computation of gated recurrent units}, 
   author={Sebastian Billaudelle and Laura Kriener and Filippo Moro and Tristan Torchet and Melika Payvand},
   year={2025},
@@ -47,6 +49,7 @@
 
 @INPROCEEDINGS{dagostino2025unified,
   abbr={SNW},
+  bibtex_show={true},
   author={D'Agostino, S. and Massarotto, M. and Torchet, T. and Moro, F. and Castellani, N. and Grenouillet, L. and Beilliard, Y. and Esseni, D. and Payvand, M. and Vianello, E.},
   journal={2025 Silicon Nanoelectronics Workshop (SNW)}, 
   title={Unified Memcapacitor-Memristor Memory for Synaptic Weights and Neuron Temporal Dynamics}, 
@@ -84,6 +87,7 @@
 
 @INPROCEEDINGS{su2023core,
   abbr={ASYNC},
+  bibtex_show={true},
   author={Su, Zhe and Hwang, Hyunjung and Torchet, Tristan and Indiveri, Giacomo},
   booktitle={2023 28th IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)}, 
   title={Core Interface Optimization for Multi-core Neuromorphic Processors}, 
@@ -93,5 +97,5 @@
   pages={89-98},
   keywords={Costs;Program processors;Multicore processing;Neuromorphics;Pipelines;Computer architecture;Routing;Multi-core neuromorphic processors;core interface;arbitration architecture;asynchronous CAM},
   doi={10.1109/ASYNC58294.2023.10239574},
-  preview={core_interface.png},
+  preview={core_interface.png}
   }
