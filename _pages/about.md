@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ini.uzh.ch/en/research/groups/EIS.html'>Emerging Intelligent Substrate Lab, Institute of Neuroinformatics, UZH/ETHZ</a>.
 
 profile:
   align: right
