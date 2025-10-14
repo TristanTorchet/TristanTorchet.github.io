@@ -6,7 +6,7 @@
     "email": "tristan.torchet@uzh.ch",
     "phone": "+33 7 61 18 28 96",
     "url": "https://tristantorchet.github.io/",
-    "summary": "PhD student working on hardware-software co-design, dendritic computing, and linear sequence models with a focus on neuromorphic engineering and brain-inspired computing.",
+    "summary": "PhD student working on hardware-software co-design, dendritic computing, and linear sequence models with a focus on brain-inspired computing.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -186,22 +186,18 @@
   "references": [
     {
       "name": "Prof. Melika Payvand",
-      "icon": "fa-solid fa-laptop",
       "reference": "Main supervisor, Emerging Intelligent Substrates Lab, Institute of Neuroinformatics, ETHZ/UZH"
     },
     {
       "name": "Prof. Shih-Chii Liu",
-      "icon": "fa-solid fa-microchip", 
       "reference": "Committee member, Institute of Neuroinformatics, ETHZ/UZH"
     },
     {
       "name": "Dr. Abu Sebastian",
-      "icon": "fa-solid fa-memory",
       "reference": "Committee member, IBM Research"
     },
     {
       "name": "Prof. Luca Benini",
-      "icon": "fa-solid fa-cpu",
       "reference": "Committee member, ETHZ"
     }
   ],
@@ -210,24 +206,18 @@
       "name": "Hybrid recurrent-attention LLM",
       "summary": "Pretrained a 370M-parameter HGRN-based model on 200B tokens FineWeb-Edu using 8xH100 cluster, comparing pure recurrent to hybrid HGRN-attention architectures.",
       "highlights": ["Multi-GPU LLM training", "Loihi-2 deployment", "Quantization optimization"],
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01",
       "url": ""
     },
     {
       "name": "LOKUM: SRAM Analog In-Memory-Computing Test Chip",
       "summary": "Set up development pipeline for Global Foundries 22nm FD-SOI and developed digital controller for analog macro and I/O communication.",
       "highlights": ["GF 22nm FD-SOI", "Siemens QuestaSim®", "Cadence Innovus®"],
-      "startDate": "2023-01-01", 
-      "endDate": "Present",
       "url": ""
     },
     {
       "name": "Event-driven Dynamic Sparse Training for SNNs",
       "summary": "Proposed EDST algorithm for spiking neural networks maintaining constant high sparsity during training, outperforming traditional pruning techniques.",
       "highlights": ["Hardware-aware simulations", "Custom ASIC circuit", "Mixed-signal simulations"],
-      "startDate": "2022-01-01",
-      "endDate": "2023-01-01", 
       "url": "https://doi.org/10.1109/ASYNC58294.2023.10239574"
     }
   ]
