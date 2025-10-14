@@ -1,200 +1,234 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Tristan Torchet",
+    "label": "PhD Student in Electrical Engineering and Neuroscience",
+    "image": "prof_pic.jpg",
+    "email": "tristan.torchet@uzh.ch",
+    "phone": "+33 7 61 18 28 96",
+    "url": "https://tristantorchet.github.io/",
+    "summary": "PhD student working on hardware-software co-design, dendritic computing, and linear sequence models with a focus on neuromorphic engineering and brain-inspired computing.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Zürich",
+      "countryCode": "CH",
+      "region": "Switzerland"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "TristanTorchet",
+        "url": "https://github.com/TristanTorchet"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "tristantorchet",
+        "url": "https://www.linkedin.com/in/tristantorchet"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Tristan Torchet",
+        "url": "https://scholar.google.com/citations?user=PIABIKoF5Y8C&hl=fr"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Prediko",
+      "position": "Data Engineer Intern",
+      "url": "https://www.prediko.io",
+      "startDate": "2021-06-01",
+      "endDate": "2021-09-01",
+      "summary": "Implemented ML pipeline for time series forecasting and developed dashboard for company and user activity monitoring.",
+      "highlights": [
+        "Implemented pipeline for time series forecasts using ARIMA, ARIMAX, SARIMAX and ensemble techniques with Darts library",
+        "Developed full-stack dashboard (MongoDB, FastAPI, Docker, GCP) presented to investors for $5M funding round",
+        "Used machine learning algorithms and Gaussian Processes for stock management optimization"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Institute of Neuroinformatics, ETHZ and UZH",
+      "location": "Zürich, Switzerland",
+      "url": "https://www.ini.uzh.ch/en/research/groups/EIS.html",
+      "area": "Electrical Engineering and Neuroscience",
+      "studyType": "Joint Ph.D.",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "score": "",
+      "courses": [
+        "Hardware-software co-design",
+        "Dendritic computing", 
+        "Linear sequence models"
+      ]
+    },
+    {
+      "institution": "ETH Zürich",
+      "location": "Zürich, Switzerland", 
+      "url": "https://ethz.ch/",
+      "area": "Electrical Engineering and Information Technology",
+      "studyType": "Master of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2023-07-01",
+      "score": "5.36",
+      "courses": [
+        "Introduction to Machine Learning",
+        "Advanced Machine Learning", 
+        "Neuromorphic Engineering I & II",
+        "VLSI I, II & III",
+        "Machine Learning on Microcontrollers",
+        "Introduction to Neuroinformatics",
+        "Deep Learning in Biological Networks"
+      ]
+    },
+    {
+      "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch/",
+      "area": "Electrical and Electronic Engineering", 
+      "studyType": "Bachelor",
+      "startDate": "2017-09-01",
+      "endDate": "2021-07-01",
+      "score": "5.11",
+      "courses": [
+        "Analysis I, II, III, IV",
+        "Physics I, II, III, IV", 
+        "Electrotechnics I & II",
+        "Electronics I & II"
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "mGRADE: Minimal Recurrent Gating Meets Delay Convolutions for Lightweight Sequence Modeling",
+      "publisher": "Under Review",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2507.01829",
+      "summary": "Proposed a hybrid-memory architecture enabling efficient multi-scale temporal processing on edge devices with competitive results on long-range dependency tasks."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Quantizing Small-Scale State-Space Models for Edge AI", 
+      "publisher": "ACM International Conference on Neuromorphic Systems (ICONS)",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2506.12480",
+      "summary": "Demonstrated efficient low-bit state-space models through quantization-aware training with heterogeneous precision scheme reducing memory 6× without performance loss."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "DenRAM: neuromorphic dendritic architecture with RRAM for efficient temporal processing with delays",
+      "publisher": "Nature Communications",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1038/s41467-024-47764-w", 
+      "summary": "Developed hardware-aware training compatible with RRAM circuits for spiking neural networks achieving best performance for feedforward SNN models."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python (JAX, PyTorch)",
+        "C",
+        "C++", 
+        "CUDA"
+      ]
+    },
+    {
+      "name": "Hardware Design",
+      "level": "Advanced", 
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "SystemVerilog",
+        "Siemens QuestaSim®",
+        "Synopsys Design Compiler®",
+        "Cadence Innovus®",
+        "Cadence Virtuoso®"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "French",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "English", 
+      "fluency": "C1",
+      "icon": ""
+    },
+    {
+      "language": "Italian",
+      "fluency": "C1", 
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "B2",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Brain-inspired Computing",
+        "Hardware-software Co-design",
+        "Sequence Modeling",
+        "Edge AI"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Prof. Melika Payvand",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Main supervisor, Emerging Intelligent Substrates Lab, Institute of Neuroinformatics, ETHZ/UZH"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Shih-Chii Liu",
+      "icon": "fa-solid fa-microchip", 
+      "reference": "Committee member, Institute of Neuroinformatics, ETHZ/UZH"
+    },
+    {
+      "name": "Dr. Abu Sebastian",
+      "icon": "fa-solid fa-memory",
+      "reference": "Committee member, IBM Research"
+    },
+    {
+      "name": "Prof. Luca Benini",
+      "icon": "fa-solid fa-cpu",
+      "reference": "Committee member, ETHZ"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Hybrid recurrent-attention LLM",
+      "summary": "Pretrained a 370M-parameter HGRN-based model on 200B tokens FineWeb-Edu using 8xH100 cluster, comparing pure recurrent to hybrid HGRN-attention architectures.",
+      "highlights": ["Multi-GPU LLM training", "Loihi-2 deployment", "Quantization optimization"],
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "url": ""
+    },
+    {
+      "name": "LOKUM: SRAM Analog In-Memory-Computing Test Chip",
+      "summary": "Set up development pipeline for Global Foundries 22nm FD-SOI and developed digital controller for analog macro and I/O communication.",
+      "highlights": ["GF 22nm FD-SOI", "Siemens QuestaSim®", "Cadence Innovus®"],
+      "startDate": "2023-01-01", 
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "Event-driven Dynamic Sparse Training for SNNs",
+      "summary": "Proposed EDST algorithm for spiking neural networks maintaining constant high sparsity during training, outperforming traditional pruning techniques.",
+      "highlights": ["Hardware-aware simulations", "Custom ASIC circuit", "Mixed-signal simulations"],
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01", 
+      "url": "https://doi.org/10.1109/ASYNC58294.2023.10239574"
     }
   ]
 }

@@ -2,96 +2,146 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Tristan Torchet
+    - name: Email
+      value: tristan.torchet@uzh.ch
+    - name: Phone
+      value: +33 7 61 18 28 96
+    - name: Location
+      value: Zürich, Switzerland
     - name: Languages
-      value: English, German
+      value: French (native), English (C1), Italian (C1), Spanish (B2)
+    - name: Links
+      value: <a href="https://github.com/TristanTorchet">GitHub</a>, <a href="https://www.linkedin.com/in/tristantorchet">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=PIABIKoF5Y8C&hl=fr">Google Scholar</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Joint Ph.D. in Electrical Engineering and Neuroscience
+      institution: Institute of Neuroinformatics, ETHZ and UZH
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focus on hardware-software co-design, dendritic computing, linear sequence models
+        - 'Committee: Prof. <a href="https://scholar.google.com/citations?user=Ol_9mKgAAAAJ&hl=en">Melika Payvand</a> (main supervisor), <a href="https://scholar.google.ch/citations?hl=en&user=XYkPvZUAAAAJ">Prof. Shih-Chii Liu</a>, <a href="https://scholar.google.ch/citations?user=sUCQ7KMAAAAJ&hl=en">Dr. Abu Sebastian</a>, <a href="https://scholar.google.ch/citations?hl=en&user=8riq3sYAAAAJ">Prof. Luca Benini</a>'
+        
+    - title: Master of Science in Electrical Engineering and Information Technology
+      institution: ETH Zürich
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - 'Grade: 5.36/6.0'
+        - 'Main courses: Introduction to Machine Learning, Advanced Machine Learning, Neuromorphic Engineering I & II, VLSI I, II & III, Machine Learning on Microcontrollers, Introduction to Neuroinformatics, Deep Learning in Biological Networks'
+
+    - title: Bachelor of Electrical and Electronic Engineering
+      institution: École Polytechnique Fédérale de Lausanne (EPFL)
+      year: 2017 - 2021
+      description:
+        - 'Grade: 5.11/6.0'
+        - 'Main courses: Analysis I-IV, Physics I-IV, Electrotechnics I & II, Electronics I & II'
+        - 'Exchange year: Sapienza University, Rome (grant recipient)'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Engineer Intern
+      institution: Prediko, London, UK
+      year: Jun 2021 - Sep 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Implemented pipeline for time series forecasts using ARIMA, ARIMAX, SARIMAX and ensemble techniques with Darts library
+        - Developed full-stack dashboard (MongoDB, FastAPI, Docker, GCP) presented to investors for $5M funding round
+        - Used machine learning algorithms and Gaussian Processes for stock management optimization
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Hybrid recurrent-attention LLM
+      institution: Telluride Workshop 2025
+      year: 2025
+      description:
+        - Pretrained a 370M-parameter HGRN-based model on 200B tokens FineWeb-Edu using 8xH100 cluster
+        - Compared pure recurrent model to hybrid HGRN-attention (6:1)
+        - Goal was introduction to LLM training using multi-GPU systems, continued for Loihi-2 deployment
 
-- title: Honors and Awards
+    - title: LOKUM SRAM Analog In-Memory-Computing Test Chip
+      institution: Institute of Neuroinformatics, ETHZ/UZH
+      year: 2023 - Present
+      description:
+        - Set up development pipeline for Global Foundries 22nm Fully-Depleted Silicon-On-Insulator (FD-SOI)
+        - Enabled fast prototyping and verification through Siemens QuestaSim® and Cadence Innovus®
+        - Developed digital controller for analog macro and I/O communication
+
+    - title: Event-driven Dynamic Sparse Training for Spiking Neural Networks
+      institution: Institute of Neuroinformatics, ETHZ/UZH
+      year: 2022 - 2023
+      description:
+        - Proposed EDST algorithm for spiking neural networks maintaining constant high sparsity during training
+        - Outperformed traditional pre-training pruning and post-training pruning techniques
+        - Implemented digital testbench for CAM array circuits and executed mixed-signal simulations using Cadence Virtuoso® AMS Designer
+
+    - title: Time series forecasts for retail stock management
+      institution: Prediko
+      year: 2021
+      description:
+        - Implemented pipeline for time series forecasts using ARIMA and Gaussian Processes
+        - Developed full-stack dashboard for company and user activity monitoring
+
+- title: Publications
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://arxiv.org/abs/2507.01829">mGRADE Minimal Recurrent Gating Meets Delay Convolutions for Lightweight Sequence Modeling</a>
+      year: 2025
+      description: 
+        - 'Authors: <strong>Torchet, T.</strong>, Metzner, C., Kriener, L., Payvand, M.'
+        - 'Status: Under Review'
+        - Proposed hybrid-memory architecture enabling efficient multi-scale temporal processing on edge devices
 
-- title: Academic Interests
+    - title: <a href="https://arxiv.org/abs/2506.12480">Quantizing Small-Scale State-Space Models for Edge AI</a>
+      year: 2025
+      description:
+        - 'Authors: Zhao, L., <strong>Torchet, T.</strong>, Payvand, M., Kriener, L., Moro, F.'
+        - 'Conference: ACM International Conference on Neuromorphic Systems (ICONS)'
+        - Demonstrated efficient low-bit state-space models through quantization-aware training
+
+    - title: <a href="https://doi.org/10.1038/s41467-024-47764-w">DenRAM neuromorphic dendritic architecture with RRAM for efficient temporal processing with delays</a>
+      year: 2024
+      description:
+        - 'Authors: D\'Agostino, S.*, Moro, F.*, <strong>Torchet, T.*</strong>, et al. (*equal contribution)'
+        - 'Journal: Nature Communications 15, 3446'
+        - Developed hardware-aware training compatible with RRAM circuits for spiking neural networks
+
+    - title: <a href="https://doi.org/10.1109/ASYNC58294.2023.10239574">Core Interface Optimization for Multi-core Neuromorphic Processors</a>
+      year: 2023
+      description:
+        - 'Authors: Su, Z., Hwang, H., <strong>Torchet, T.</strong>, Indiveri, G.'
+        - 'Conference: IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)'
+        - Optimized core interface architecture for multi-core neuromorphic processors
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python (JAX, PyTorch)
+        - C, C++
+        - CUDA
+    - title: Hardware Design
       items:
-        - Description 1.
-        - Description 2.
+        - SystemVerilog
+        - Siemens QuestaSim®
+        - Synopsys Design Compiler®
+        - Cadence Innovus®
+        - Cadence Virtuoso®
 
-- title: Other Interests
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Introduction to Neuroinformatics
+      institution: ETHZ
+      year: Teaching Assistant
+      description: Assisted with course instruction and student support
+
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Primary Focus:</u> Neuromorphic Engineering, Brain-inspired Computing, Hardware-software Co-design
+    - <u>Applications:</u> Sequence Modeling, Edge AI, Temporal Processing, Spiking Neural Networks
+    - <u>Hardware:</u> RRAM, In-Memory Computing, VLSI Design, Mixed-Signal Circuits

@@ -1,33 +1,39 @@
 ---
 ---
 
-@misc{torchet2025mgrademinimalrecurrentgating,
+@misc{torchet2025mgrade,
+  abbr={Preprint - V2 under review},
   title={mGRADE: Minimal Recurrent Gating Meets Delay Convolutions for Lightweight Sequence Modeling}, 
   author={Tristan Torchet and Christian Metzner and Laura Kriener and Melika Payvand},
   year={2025},
   eprint={2507.01829},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2507.01829}, 
+  doi={https://arxiv.org/abs/2507.01829}, 
+  preview={mgrade_archi.png},
   abstract={Edge devices for temporal processing demand models that capture both short- and long- range dynamics under tight memory constraints. While Transformers excel at sequence modeling, their quadratic memory scaling with sequence length makes them impractical for such settings. Recurrent Neural Networks (RNNs) offer constant memory but train sequentially, and Temporal Convolutional Networks (TCNs), though efficient, scale memory with kernel size. To address this, we propose mGRADE (mininally Gated Recurrent Architecture with Delay Embedding), a hybrid-memory system that integrates a temporal 1D-convolution with learnable spacings followed by a minimal gated recurrent unit (minGRU). This design allows the convolutional layer to realize a flexible delay embedding that captures rapid temporal variations, while the recurrent module efficiently maintains global context with minimal memory overhead. We validate our approach on two synthetic tasks, demonstrating that mGRADE effectively separates and preserves multi-scale temporal features. Furthermore, on challenging pixel-by-pixel image classification benchmarks, mGRADE consistently outperforms both pure convolutional and pure recurrent counterparts using approximately 20% less memory footprint, highlighting its suitability for memory-constrained temporal processing at the edge. This highlights mGRADE's promise as an efficient solution for memory-constrained multi-scale temporal processing at the edge.}
+  selected={true},
 }
 
-@INPROCEEDINGS{torchet2025quantizing,
+@INPROCEEDINGS{zhao2025quantizing,
   abbr={ICONS},
   bibtex_show={true},
-  title={Quantizing Small-Scale State-Space Models for Edge AI},
-  author={Torchet, Tristan and Liu, Sheng-Chih and Chicca, Elisabetta},
+  title={Quantizing Small-Scale State-Space Models for Edge AI}, 
+  author={Leo Zhao and Tristan Torchet and Melika Payvand and Laura Kriener and Filippo Moro},
   journal={ACM International Conference on Neuromorphic Systems (ICONS)},
   year={2025},
   eprint={2506.12480},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2506.12480}, 
+  doi={https://arxiv.org/abs/2506.12480}, 
+  preview={qssm_archi.png},
   abstract={State-space models (SSMs) have recently gained attention in deep learning for their ability to efficiently model long-range dependencies, making them promising candidates for edge-AI applications. In this paper, we analyze the effects of quantization on small-scale SSMs with a focus on reducing memory and computational costs while maintaining task performance. Using the S4D architecture, we first investigate post-training quantization (PTQ) and show that the state matrix A and internal state x are particularly sensitive to quantization. Furthermore, we analyze the impact of different quantization techniques applied to the parameters and activations in the S4D architecture. To address the observed performance drop after Post-training Quantization (PTQ), we apply Quantization-aware Training (QAT), significantly improving performance from 40% (PTQ) to 96% on the sequential MNIST benchmark at 8-bit precision. We further demonstrate the potential of QAT in enabling sub-8-bit precisions and evaluate different parameterization schemes for QAT stability. Additionally, we propose a heterogeneous quantization strategy that assigns different precision levels to model components, reducing the overall memory footprint by a factor of 6x without sacrificing performance. Our results provide actionable insights for deploying quantized SSMs in resource-constrained environments.},
   selected={true}
+
 }
 
 @misc{billaudelle2025minimalist,
+  abbr={Preprint},
   title={MINIMALIST: switched-capacitor circuits for efficient in-memory computation of gated recurrent units}, 
   author={Sebastian Billaudelle and Laura Kriener and Filippo Moro and Tristan Torchet and Melika Payvand},
   year={2025},
@@ -35,12 +41,14 @@
   archivePrefix={arXiv},
   primaryClass={cs.AR},
   url={https://arxiv.org/abs/2505.08599}, 
+  preview={minimalist.png},
   abstract={Recurrent neural networks (RNNs) have been a long-standing candidate for processing of temporal sequence data, especially in memory-constrained systems that one may find in embedded edge computing environments. Recent advances in training paradigms have now inspired new generations of efficient RNNs. We introduce a streamlined and hardware-compatible architecture based on minimal gated recurrent units (GRUs), and an accompanying efficient mixed-signal hardware implementation of the model. The proposed design leverages switched-capacitor circuits not only for in-memory computation (IMC), but also for the gated state updates. The mixed-signal cores rely solely on commodity circuits consisting of metal capacitors, transmission gates, and a clocked comparator, thus greatly facilitating scaling and transfer to other technology nodes. We benchmark the performance of our architecture on time series data, introducing all constraints required for a direct mapping to the hardware system. The direct compatibility is verified in mixed-signal simulations, reproducing data recorded from the software-only network model.},
 }
 
 @INPROCEEDINGS{dagostino2025unified,
+  abbr={SNW},
   author={D'Agostino, S. and Massarotto, M. and Torchet, T. and Moro, F. and Castellani, N. and Grenouillet, L. and Beilliard, Y. and Esseni, D. and Payvand, M. and Vianello, E.},
-  booktitle={2025 Silicon Nanoelectronics Workshop (SNW)}, 
+  journal={2025 Silicon Nanoelectronics Workshop (SNW)}, 
   title={Unified Memcapacitor-Memristor Memory for Synaptic Weights and Neuron Temporal Dynamics}, 
   year={2025},
   volume={},
@@ -48,6 +56,7 @@
   pages={110-111},
   keywords={Meters;Voltage measurement;Pulse measurements;Capacitance-voltage characteristics;Neurons;Memristors;Modulation;Programming;Capacitance;Capacitance measurement},
   doi={10.23919/SNW65111.2025.11097227},
+  preview={unified.png},
   abstract={We present a fabricated and experimentally characterized memory stack that unifies memristive and memcapacitive behavior. Exploiting this dual functionality, we design a circuit enabling simultaneous control of spatial and temporal dynamics in recurrent spiking neural networks (RSNNs). Hardware-aware simulations highlight its promise for efficient neuromorphic processing.},
   }
 
@@ -66,6 +75,7 @@
   issn={2041-1723},
   doi={10.1038/s41467-024-47764-w},
   url={https://doi.org/10.1038/s41467-024-47764-w},
+  preview={denram.png},
   abstract={Neuroscience findings emphasize the role of dendritic branching in neocortical pyramidal neurons for non-linear computations and signal processing. Dendritic branches facilitate temporal feature detection via synaptic delays that enable coincidence detection (CD) mechanisms. Spiking neural networks highlight the significance of delays for spatio-temporal pattern recognition in feed-forward networks, eliminating the need for recurrent structures. Here, we introduce DenRAM, a novel analog electronic feed-forward spiking neural network with dendritic compartments. Utilizing 130 nm technology integrated with resistive RAM (RRAM), DenRAM incorporates both delays and synaptic weights. By configuring RRAMs to emulate bio-realistic delays and exploiting their heterogeneity, DenRAM mimics synaptic delays and efficiently performs CD for pattern recognition. Hardware-aware simulations on temporal benchmarks show DenRAM's robustness against hardware noise, and its higher accuracy over recurrent networks. DenRAM advances temporal processing in neuromorphic computing, optimizes memory usage, and marks progress in low-power, real-time signal processing},
   abbr={Nature Comm.},
   bibtex_show={true},
@@ -82,4 +92,6 @@
   number={},
   pages={89-98},
   keywords={Costs;Program processors;Multicore processing;Neuromorphics;Pipelines;Computer architecture;Routing;Multi-core neuromorphic processors;core interface;arbitration architecture;asynchronous CAM},
-  doi={10.1109/ASYNC58294.2023.10239574}}
+  doi={10.1109/ASYNC58294.2023.10239574},
+  preview={core_interface.png},
+  }
