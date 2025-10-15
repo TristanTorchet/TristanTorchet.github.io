@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #more_info: >
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,11 +24,11 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 3rd year PhD student at the [EIS Lab (INI, UZH/ETHZ)](https://www.ini.uzh.ch/en/research/groups/EIS.html) supervised by Prof. [Melika Payvand](https://scholar.google.com/citations?hl=en&user=Ol_9mKgAAAAJ&view_op=list_works&sortby=pubdate). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on developing efficient algorithms for real-time processing of multi-timescale signals. By tightly coupling algorithm design with hardware constraints, I pursue hardware–software co-design approaches that aim for peak computational efficiency.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The human brain serves as a model of efficiency and inspires my exploration of biologically grounded inductive biases in neural architecture design. I investigate how dendritic mechanisms, including delayed signal propagation [DenRAM](https://doi.org/10.1038/s41467-024-47764-w) and selective dendritic gating [mGRADE](https://arxiv.org/abs/2507.01829), can be leveraged to build more efficient and temporally aware computational models.
