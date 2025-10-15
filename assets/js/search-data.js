@@ -391,10 +391,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-officialy-started-my-phd-at-eis-lab-under-the-supervision-of-prof-melika-payvand",
-          title: 'I officialy started my PhD at EIS Lab under the supervision of Prof....',
+            },},{id: "news-i-officially-started-my-phd-at-eis-lab-under-the-supervision-of-prof-melika-payvand",
+          title: 'I officially started my PhD at EIS Lab under the supervision of Prof....',
           description: "",
-          section: "News",},{id: "news-my-first-journal-paper-has-been-published-in-nature-communications-with-my-amazing-co-first-authors-simone-d-agostino-and-filippo-moro-we-proposed-denram-an-analog-circuit-implementic-dendritic-delays-for-efficient-signal-processing",
+          section: "News",},{id: "news-my-first-journal-paper-has-been-published-in-nature-communications-with-my-amazing-co-first-authors-simone-d-agostino-and-filippo-moro-we-proposed-denram-an-analog-circuit-implementing-dendritic-delays-for-efficient-signal-processing",
           title: 'My first journal paper has been published in Nature Communications. With my amazing...',
           description: "",
           section: "News",},{id: "news-i-ll-be-presenting-denram-at-the-international-conference-on-neuromorphic-computing-and-engineering-icnce-in-june",
@@ -403,7 +403,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-have-been-selected-to-attend-the-famously-intense-3-week-long-telluride-neuromorphic-cognition-engineering-workshop-i-ll-be-taking-part-in-the-language-and-thought-track",
           title: 'I have been selected to attend the famously intense 3-week long Telluride Neuromorphic...',
           description: "",
-          section: "News",},{id: "news-our-work-with-leo-zhao-on-quantizing-state-space-models-for-the-edge-got-accepted-for-a-an-oral-presentation-at-the-acm-international-conference-on-neuromorphic-systems-icons",
+          section: "News",},{id: "news-our-work-with-leo-zhao-on-quantizing-state-space-models-for-the-edge-got-accepted-for-an-oral-presentation-at-the-acm-international-conference-on-neuromorphic-systems-icons",
           title: 'Our work with Leo Zhao on quantizing state-space models for the edge got...',
           description: "",
           section: "News",},{id: "projects-project-1",
