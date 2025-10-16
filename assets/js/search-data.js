@@ -391,14 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-first-journal-paper-has-been-published-in-nature-communications-with-my-amazing-co-first-authors-simone-d-agostino-and-filippo-moro-we-proposed-denram-an-analog-circuit-implementing-dendritic-delays-for-efficient-signal-processing",
+            },},{id: "news-i-officially-started-my-phd-at-eis-lab-under-the-supervision-of-prof-melika-payvand",
+          title: 'I officially started my PhD at EIS Lab under the supervision of Prof....',
+          description: "",
+          section: "News",},{id: "news-my-first-journal-paper-has-been-published-in-nature-communications-with-my-amazing-co-first-authors-simone-d-agostino-and-filippo-moro-we-proposed-denram-an-analog-circuit-implementing-dendritic-delays-for-efficient-signal-processing",
           title: 'My first journal paper has been published in Nature Communications. With my amazing...',
           description: "",
           section: "News",},{id: "news-i-ll-be-presenting-denram-at-the-international-conference-on-neuromorphic-computing-and-engineering-icnce-in-june",
           title: 'I’ll be presenting DenRAM at the International Conference on Neuromorphic Computing and Engineering...',
-          description: "",
-          section: "News",},{id: "news-i-officially-started-my-phd-at-eis-lab-under-the-supervision-of-prof-melika-payvand",
-          title: 'I officially started my PhD at EIS Lab under the supervision of Prof....',
           description: "",
           section: "News",},{id: "news-i-have-been-selected-to-attend-the-famously-intense-3-week-long-telluride-neuromorphic-cognition-engineering-workshop-i-ll-be-taking-part-in-the-language-and-thought-track",
           title: 'I have been selected to attend the famously intense 3-week long Telluride Neuromorphic...',
